@@ -1,0 +1,19 @@
+<!-- 3. Hozz létre egy oldalt egy bekezdéssel és alatta egy képpel. 
+
+Ha a kép betöltődött akkor a bekezdésben jelenjen meg a "Betöltődött" felirat. 
+
+A képre kattintva a bekezdés felirata "Rákattintott" legyen. -->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. feladat</title>
+</head>
+<body>
+    <p id="bekezdes"></p>
+    <img src="Krobus_Laughing.png" onload="bekezdes.innerHTML='Betöltődött'" onclick="bekezdes.innerHTML='Rákattintott'" alt="Krobus Laughing :)">
+</body>
+</html>
